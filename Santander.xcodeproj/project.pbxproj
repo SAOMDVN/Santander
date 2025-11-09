@@ -886,24 +886,24 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				kind = exactVersion;
+				version  = 1.4.0;
 			};
 		};
 		CEA33B35291619EB00DD7BAC /* XCRemoteSwiftPackageReference "SantanderWrappers" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SerenaKit/SantanderWrappers";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = revision;
+    			revision = e64e411eb83e73e00c6faae8711c5b01c13985a1;
 			};
 		};
 		CED78C4628FDEC610097D2C5 /* XCRemoteSwiftPackageReference "SantanderWrappers" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SerenaKit/SantanderWrappers";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = revision;
+    			revision = e64e411eb83e73e00c6faae8711c5b01c13985a1;
 			};
 		};
 		CEDAF41E28C36B2900DF03E6 /* XCRemoteSwiftPackageReference "Runestone" */ = {
